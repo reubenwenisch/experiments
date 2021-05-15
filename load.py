@@ -31,3 +31,4 @@ MNIST()
 dataloader = torch.utils.DataLoader(dataset, batch_size=1, suffle=False)
 loss = torch.nn.MSELoss()
 optim = torch.optim.SGD()
+
